@@ -1,7 +1,3 @@
-from pathlib import Path
-
-readme = r"""# Mobile Transaction Fraud Detection
-
 An end-to-end machine learning project that analyses mobile financial transactions and classifies them as legitimate or potentially fraudulent. The project compares Logistic Regression, Random Forest and XGBoost, then uses the selected XGBoost model in a Streamlit demonstration application. A Power BI dashboard is included for exploratory and business-focused reporting.
 
 ## Project Overview
