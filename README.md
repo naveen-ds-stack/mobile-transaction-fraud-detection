@@ -209,7 +209,3 @@ Ensure the model files are in the same `app/` directory as `app.py`, and that th
 
 GitHub: [naveen-ds-stack](https://github.com/naveen-ds-stack)
 """
-
-out = Path("/mnt/data/README.md")
-out.write_text(readme, encoding="utf-8")
-print(f"Created {out} ({out.stat().st_size} bytes)")
